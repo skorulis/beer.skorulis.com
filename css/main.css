@@ -1,0 +1,56 @@
+/*
+ * Off White #E5E5E5
+ * Light grey #98999e
+ * Pale red #d25843
+ * Dark red #893a2c
+ * Pale blue #90b8c4
+ * pale yellow #fac223 
+ * pale green #afb321
+ *
+*/
+
+body {
+    font-family: helvetica;
+    font-size: 14pt;
+    background-color: #FFFFFF;
+}
+
+ul {
+
+}
+
+li {
+    display: inline-block;
+    border-width:1pt;
+    border-color: #90b8c4;
+    border-style: solid;
+    background-color:#E5E5E5;
+
+    width:300px;
+    height:400px;
+    margin:5pt;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+li.hidden {
+    display:none;
+}
+
+p.center {
+    margin: 0px;
+    padding: 15px;
+    text-align: center;
+    padding-top: 8pt;
+}
+
+img {
+    width:100%;
+    margin: 0px;
+    height: auto;
+    object-fit: cover;
+}
+
+button.expand {
+    float:right;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+
+    <div>
+    <ul>
+      {% for beer in site.data.raw %}
+        <li >
+          <p class="center">
+            {{beer.name}}
+            {% if beer.score %}
+                {{beer.score}}/10
+            {% endif %}
+
+            {% if beer.expanded %}
+                <br/>
+                {% if beer.pct %}
+                    {{beer.pct}}%
+                {% endif %}
+                <br/>
+                {% if beer.desc %}
+                    {{beer.desc}}<br/>
+                {% endif %}
+            {% endif %}
+          </p>
+          <img class="lazy" data-original="{{beer.img}}"  width="640" heigh="480">
+          <noscript>
+            <img src="{{beer.img}}" width="640" heigh="480">
+          </noscript>
+        </li>
+      
+      {% endfor %}
+    </ul>
+    </div>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    <script type="text/javascript">
+      $("img.lazy").lazyload({
+        effect : "fadeIn"
+      });
+
+
+    </script>
+
+  </body>
+
+</html>
