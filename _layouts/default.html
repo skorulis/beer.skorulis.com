@@ -11,7 +11,9 @@
     <div>
     <ul>
       {% for beer in site.data.raw %}
+        
         <li >
+        <a href="beer/{{beer.name | slugify}}.html">
           <p class="center">
             {{beer.name}}
             {% if beer.score %}
@@ -33,7 +35,9 @@
           <noscript>
             <img src="{{beer.img}}" width="640" heigh="480">
           </noscript>
+        </a>
         </li>
+        
       
       {% endfor %}
     </ul>
@@ -46,13 +50,11 @@
       </div>
     </div>
 
-    {% include footer.html %}
 
     <script type="text/javascript">
       $("img.lazy").lazyload({
         effect : "fadeIn"
       });
-
 
     </script>
 

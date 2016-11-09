@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+
+    <div>
+
+    {{page.title}}
+    {% if page.score %}
+    	{{page.score}}/10
+	{% endif %}
+	<br/>
+	{% if page.desc %}
+		{{page.desc}}<br/>
+	{% endif %}
+
+	<img src="{{page.img}}">
+
+    </div>
+
+  </body>
+</html>
