@@ -1,0 +1,8 @@
+---
+layout: beer
+title: Monteith’s southern pale ale
+score: 7
+img: https://scontent.xx.fbcdn.net/t31.0-0/p480x480/10498559_10153268294398745_8634108256899324103_o.jpg
+desc: Like a very mild pale ale. Refreshing
+permalink: /beer/:title.html
+---
