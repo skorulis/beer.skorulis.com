@@ -4,7 +4,7 @@ require 'httpclient'
 require 'json'
 
 # Need to generate a new token every hour or so
-@token = "EAACEdEose0cBAGtSDdRn32gbUPI1fZCmxgbhYQsU0M3u1g73onwQupZCbEB38MelbNeAhSe3heDv32lSQQP4CPBFhvXTqDL9QrO27Vne0y4wfGZCkVywb6qWS1sUxLHZBrfy1mBhMOt5ZCkK6WQymOFYTo65MdGIVkAQSD6s4nAZDZD";
+@token = "EAACEdEose0cBAMJ3WoRZCxzdLZAh1qRIPtyJLugV43ETI3ZCkbLIPSVvnStJQUpCMyHhHXY6uJIkZBsSa70X3kGnfzeJlyfmZAFt9ZC3SMeyW1ITi3HFkveCfZBa24MyhZA0ZBAbDPpAcLDYbU6BZBDMvZBnH92Ex3Mv05dYoZCJA33U5AZDZD";
 @albums = ["10151283325498745","10152534310003745"]
 @allBeers = [];
 @next = ""
@@ -99,7 +99,7 @@ def dumpJSToFile(filename)
 end
 
 def dumpPlainJS() 
-	file = File.new("js/raw.json","wb");
+	file = File.new("data/raw.json","wb");
 	file.write(JSON.pretty_generate(@allBeers))
 end
 
