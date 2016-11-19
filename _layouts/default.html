@@ -7,10 +7,12 @@
 
     {% include header.html %}
 
+    <p>{{site.data.raw || size}} beers</p>
 
     <div>
     <ul>
-      {% for beer in site.data.raw %}
+      {% assign rev = site.data.raw | reverse %}
+      {% for beer in rev %}
         
         <li >
         <a href="beer/{{beer.name | slugify}}.html">
@@ -41,13 +43,6 @@
       
       {% endfor %}
     </ul>
-    </div>
-
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
     </div>
 
 
