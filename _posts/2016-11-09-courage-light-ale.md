@@ -2,7 +2,7 @@
 layout: beer
 title: Courage light ale
 score: 5
-img: https://scontent.xx.fbcdn.net/v/t1.0-0/p480x480/1003533_10151860443063745_1669379479_n.jpg?oh=7d580e82c4c1693ce233a4378229d945&oe=58953BA9
+img: https://scontent.xx.fbcdn.net/v/t1.0-0/p480x480/1003533_10151860443063745_1669379479_n.jpg?oh=0d0834c39bd3648b3b0ec9a96dd3bbe9&oe=590BE2A9
 desc: Why did I even buy this tiny weak beer?
 permalink: /beer/:title.html
 ---

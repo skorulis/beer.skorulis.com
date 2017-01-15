@@ -2,7 +2,7 @@
 layout: beer
 title: Aldaris Luksus
 score: 6
-img: https://scontent.xx.fbcdn.net/v/t1.0-0/p480x480/1484218_10152147730358745_1572080029_n.jpg?oh=e8682a165f8371fea58675263e7f7ac9&oe=58C51E47
+img: https://scontent.xx.fbcdn.net/v/t1.0-0/p480x480/1484218_10152147730358745_1572080029_n.jpg?oh=47de9682720d67f8a364426cbc40bbfb&oe=59143847
 desc: Yep, it’s a lager
 permalink: /beer/:title.html
 ---

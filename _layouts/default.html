@@ -7,7 +7,7 @@
 
     {% include header.html %}
 
-    <p>{{site.data.raw || size}} beers</p>
+    <p>{{site.data.raw | size}} beers</p>
 
     <div>
     <ul>
@@ -15,7 +15,7 @@
       {% for beer in rev %}
         
         <li >
-        <a href="beer/{{beer.name | slugify}}.html">
+        <a href="beer/{{beer.name | remove: "'" | slugify}}.html">
           <p class="center">
             {{beer.name}}
             {% if beer.score %}

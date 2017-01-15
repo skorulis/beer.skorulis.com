@@ -2,7 +2,7 @@
 layout: beer
 title: Red hill Scotch ale
 score: 3
-img: https://scontent.xx.fbcdn.net/v/t1.0-0/p480x480/12495170_10153811611453745_4249513101009687446_n.jpg?oh=bf74a530a3b26c80cad7923ffe214ad4&oe=58C02B73
+img: https://scontent.xx.fbcdn.net/v/t1.0-0/p480x480/12495170_10153811611453745_4249513101009687446_n.jpg?oh=0625702791f577b4c3d0ead813cf2b66&oe=590F4573
 desc: Fizzed for about 10 minutes and then just tasted a little blemished
 permalink: /beer/:title.html
 ---

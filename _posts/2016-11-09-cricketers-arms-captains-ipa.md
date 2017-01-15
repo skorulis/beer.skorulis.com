@@ -1,8 +1,8 @@
 ---
 layout: beer
-title: Cricketers arms captain\'s IPA
+title: Cricketers arms captain's IPA
 score: 6
-img: https://scontent.xx.fbcdn.net/v/t1.0-0/p480x480/10995650_10153118627158745_3441161072765169256_n.jpg?oh=661c4a304bdcba8ce111e15a8e999866&oe=58D58496
+img: https://scontent.xx.fbcdn.net/v/t1.0-0/p480x480/10995650_10153118627158745_3441161072765169256_n.jpg?oh=ba791147b671e8ea0c9405b257729a5f&oe=59249E96
 desc: A very mild IPA. Easy drinking but not what I want from an IPA
 permalink: /beer/:title.html
 ---

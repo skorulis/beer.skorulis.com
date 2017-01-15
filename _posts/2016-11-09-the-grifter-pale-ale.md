@@ -2,7 +2,7 @@
 layout: beer
 title: The grifter pale ale
 score: 7
-img: https://scontent.xx.fbcdn.net/v/t1.0-0/p480x480/1939940_10152293133933745_1195913989_n.jpg?oh=a416ebc69bf47bdbad4b024c4e059abf&oe=58CA1AF7
+img: https://scontent.xx.fbcdn.net/v/t1.0-0/p480x480/1939940_10152293133933745_1195913989_n.jpg?oh=8546efcb150834492f0947aefa197897&oe=591934F7
 desc: A nice pale
 permalink: /beer/:title.html
 ---

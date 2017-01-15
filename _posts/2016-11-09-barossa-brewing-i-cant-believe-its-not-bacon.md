@@ -1,8 +1,8 @@
 ---
 layout: beer
-title: Barossa brewing I can\'t believe it\'s not bacon
+title: Barossa brewing I can't believe it's not bacon
 score: 7.5
-img: https://scontent.xx.fbcdn.net/v/t1.0-0/p480x480/14364803_10154470805213745_3875462672312387508_n.jpg?oh=2d3c390925375d7a5763d61f8ecf6101&oe=58BFA6C1
+img: https://scontent.xx.fbcdn.net/v/t1.0-0/p480x480/14364803_10154470805213745_3875462672312387508_n.jpg?oh=68118eba8ad9f5c74cea3ea7b3561b68&oe=590EC0C1
 desc: Super smokey but not overwhelming. Definitely evokes memories of bacon
 permalink: /beer/:title.html
 ---
