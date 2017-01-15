@@ -17,6 +17,9 @@ allBeers.each do |item|
 	d["untappd"] = Hash.new
 	d["untappd"]["id"] = ""
 	old = existing[item["name"]]
+	if old == nil
+		old = existing[item["name"].gsub("'", "\\\\'")]
+	end
 	
 	if old != nil
 		d["untappd"] = old["untappd"]

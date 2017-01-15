@@ -12,10 +12,6 @@ breweries = Hash.new
 scoreDiffs = 0
 scoreDiffCount = 0
 
-def createEmptyHash()
-	
-end
-
 def increment(hash,key)
 	if key != nil && key.length > 0
 		if hash.has_key?(key)
@@ -67,8 +63,10 @@ allBeers.each do |item|
 		missingUntappdId.push(name)
 	end
 	
-	if untappd["country"]
-		increment(countries,untappd["country"])
+	country = untappd["country"]
+
+	if country
+		increment(countries,country)
 		increment(breweries,untappd["brewery"])
 		if item["score"] != "null"
 			uRating = untappd["score"] * 2 

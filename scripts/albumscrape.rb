@@ -4,7 +4,7 @@ require 'httpclient'
 require 'json'
 
 # Need to generate a new token every hour or so
-@token = "EAACEdEose0cBAMJ3WoRZCxzdLZAh1qRIPtyJLugV43ETI3ZCkbLIPSVvnStJQUpCMyHhHXY6uJIkZBsSa70X3kGnfzeJlyfmZAFt9ZC3SMeyW1ITi3HFkveCfZBa24MyhZA0ZBAbDPpAcLDYbU6BZBDMvZBnH92Ex3Mv05dYoZCJA33U5AZDZD";
+@token = "EAACEdEose0cBANrBw0hlB8PABJKUvLZAjA0eKZBDOCFwsv212CW172pc105NDaE0qxDZBterZBZB8NwIsoud6HxecmY01IYkUtCtteeU9YShWKx0ttxZAPYnxqXCQqLz6t3VHARWDRMK67NjevnBtWcQiEIFV3l0dyGshJ4EK2iQZDZD";
 @albums = ["10151283325498745","10152534310003745"]
 @allBeers = [];
 @next = ""
@@ -65,8 +65,8 @@ def downloadChunk(url)
 
 
 		hash = Hash[];
-		hash["name"] = cleanText(lines[0].gsub("'", "\\\\'"));
-		hash["desc"] = cleanText(lines[1].gsub("'", "\\\\'"));
+		hash["name"] = cleanText(lines[0])
+		hash["desc"] = cleanText(lines[1])
 		hash["img"] = value["images"][4]["source"];
 		hash["pct"] = pct;
 		hash["link"] = value["link"]
@@ -78,28 +78,8 @@ def downloadChunk(url)
 	
 end
 
-def dumpJSToFile(filename)
-    ret = "function addAllBeers() {\n\n"
-    ret+= "var ret = [];\n"
-	@allBeers.each{|beer|
-		ret+= "ret.push(App.Beer.create({\n"
-		ret+= "\tname:'"+beer["name"]+"',\n"
-		ret+= "\tpct:"+(beer["pct"]||"") +",\n";
-		ret+= "\tdesc:'"+beer["desc"]+"',\n";
-		ret+= "\tscore:"+(beer["score"]||"") +",\n";
-		ret+= "\timg:'"+beer["img"]+"',\n"
-		ret += "\tlink:'"+beer["link"]+"'\n"
-		ret+= "}));\n\n"
-	}
-	ret+= "return ret;\n";
-	ret+= "}\n"
-	file = File.new("js/beer.js", "wb");
-	file.write(ret);
-
-end
-
 def dumpPlainJS() 
-	file = File.new("data/raw.json","wb");
+	file = File.new("js/raw.json","wb");
 	file.write(JSON.pretty_generate(@allBeers))
 end
 
@@ -115,7 +95,6 @@ end
 downloadData(@albums[0])
 downloadData(@albums[1])
 
-dumpJSToFile("beer.js");
 dumpPlainJS()
 
 puts "Successfully wrote " + @allBeers.length.to_s() + " beers";
