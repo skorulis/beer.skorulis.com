@@ -2,6 +2,7 @@ require 'rubygems'
 require 'json'
 require 'net/http'
 require 'httpclient'
+require 'launchy'
 
 ACCESS_TOKEN = "504CD86D79F7BC336C7A36EC0A97655DCF872857"
 
@@ -47,6 +48,12 @@ extraData.each do |item|
 		end
 	end
 end
+
+missing = extraData.select {|key,value| value["untappd"]["id"].length == 0}
+puts missing.keys
+
+
+
 
 File.open("js/extra.json","w") do |f|
   f.write(JSON.pretty_generate(extraData))

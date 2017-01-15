@@ -52,7 +52,7 @@ allBeers.each do |item|
 		words[w] = words[w] + 1
 	end
 	if item["pct"] == "null"
-		puts name
+		#puts name
 		missingPct.push(name)
 	end
 	
@@ -85,6 +85,6 @@ puts "missing pct " + missingPct.length.to_s
 puts "missing extra " + missingExtra.length.to_s
 puts "missing untappdId " + missingUntappdId.length.to_s
 puts "avg rating diff = " + (scoreDiffs/scoreDiffCount).to_s
-puts countries
+puts JSON.pretty_generate(countries)
 puts ratings
 puts untappdRatings

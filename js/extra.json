@@ -3143,7 +3143,13 @@
   },
   "Hoegaarden blanche": {
     "untappd": {
-      "id": ""
+      "id": "6422",
+      "style": "Witbier",
+      "IBU": 15,
+      "score": 3.60152,
+      "brewery": "Brouwerij van Hoegaarden",
+      "country": "Belgium",
+      "name": "Hoegaarden Blanche"
     }
   },
   "Bitburger": {
@@ -3159,7 +3165,13 @@
   },
   "Fischer\\'s stiftungbräu helles": {
     "untappd": {
-      "id": ""
+      "id": "498614",
+      "style": "Lager - Helles",
+      "IBU": 0,
+      "score": 3.34231,
+      "brewery": "Fischer's Stiftungsbräu",
+      "country": "Germany",
+      "name": "Fischer's Hell"
     }
   },
   "Rothaus Pils": {
@@ -5306,7 +5318,13 @@
   },
   "Stone & wood lager": {
     "untappd": {
-      "id": ""
+      "id": "13577",
+      "style": "Kellerbier / Zwickelbier",
+      "IBU": 0,
+      "score": 3.34459,
+      "brewery": "Stone & Wood",
+      "country": "Australia",
+      "name": "Green Coast"
     }
   },
   "Dogbolter": {
@@ -5399,7 +5417,13 @@
   },
   "Orion draft beer": {
     "untappd": {
-      "id": ""
+      "id": "174508",
+      "style": "Lager - Japanese Rice",
+      "IBU": 0,
+      "score": 3.144,
+      "brewery": "Orion Breweries, Ltd.",
+      "country": "Japan",
+      "name": "Orion Draft Beer"
     }
   },
   "Wicked elf pale ale": {
@@ -7504,7 +7528,7 @@
   },
   "Big smoke wet hop IPA": {
     "untappd": {
-      "id": "931901",
+      "id": "1055407",
       "style": "IPA - American",
       "IBU": 0,
       "score": 0,
@@ -10015,7 +10039,13 @@
   },
   "Arc Valley Lager": {
     "untappd": {
-      "id": ""
+      "id": "801656",
+      "style": "Lager - Euro",
+      "IBU": 0,
+      "score": 2.42111,
+      "brewery": "Pinnacle Drinks Group (Woolworths)",
+      "country": "Australia",
+      "name": "Arc Valley"
     }
   },
   "Namysrów pils": {
@@ -10025,42 +10055,90 @@
   },
   "Sierra Nevada Otra vez": {
     "untappd": {
-      "id": ""
+      "id": "1211126",
+      "style": "Sour - Gose",
+      "IBU": 5,
+      "score": 3.51266,
+      "brewery": "Sierra Nevada Brewing Co.",
+      "country": "United States",
+      "name": "Otra Vez"
     }
   },
   "Magic rock Cannonball IPA": {
     "untappd": {
-      "id": ""
+      "id": "61315",
+      "style": "IPA - American",
+      "IBU": 60,
+      "score": 3.9487,
+      "brewery": "Magic Rock Brewing",
+      "country": "England",
+      "name": "Cannonball"
     }
   },
   "Exit milk stout": {
     "untappd": {
-      "id": ""
+      "id": "1517951",
+      "style": "Stout - Milk / Sweet",
+      "IBU": 25,
+      "score": 3.82675,
+      "brewery": "Exit Brewing",
+      "country": "Australia",
+      "name": "Milk Stout"
     }
   },
   "The continuous daryl": {
     "untappd": {
-      "id": ""
+      "id": "1050344",
+      "style": "IPA - Imperial / Double",
+      "IBU": 90,
+      "score": 4.05777,
+      "brewery": "Mornington Peninsula Brewery",
+      "country": "Australia",
+      "name": "The Continuous Daryl"
     }
   },
   "Holgate temptress": {
     "untappd": {
-      "id": ""
+      "id": "11461",
+      "style": "Porter - Other",
+      "IBU": 31,
+      "score": 3.84765,
+      "brewery": "Holgate Brewhouse",
+      "country": "Australia",
+      "name": "Temptress"
     }
   },
   "Magic rock high wire grapefruit": {
     "untappd": {
-      "id": ""
+      "id": "1127731",
+      "style": "Pale Ale - American",
+      "IBU": 0,
+      "score": 3.75481,
+      "brewery": "Magic Rock Brewing",
+      "country": "England",
+      "name": "High Wire Grapefruit"
     }
   },
   "Holgate hop tart": {
     "untappd": {
-      "id": ""
+      "id": "1600534",
+      "style": "Sour - Ale",
+      "IBU": 15,
+      "score": 3.55816,
+      "brewery": "Holgate Brewhouse",
+      "country": "Australia",
+      "name": "Hop Tart"
     }
   },
   "Rogue dead guy": {
     "untappd": {
-      "id": ""
+      "id": "4172",
+      "style": "Maibock/Helles Bock",
+      "IBU": 40,
+      "score": 3.73059,
+      "brewery": "Rogue Ales & Spirits",
+      "country": "United States",
+      "name": "Dead Guy Ale"
     }
   },
   "Skorubrew #6": {
@@ -10070,22 +10148,46 @@
   },
   "Magic rock salty kiss": {
     "untappd": {
-      "id": ""
+      "id": "322150",
+      "style": "Sour - Gose",
+      "IBU": 0,
+      "score": 3.50998,
+      "brewery": "Magic Rock Brewing",
+      "country": "England",
+      "name": "Salty Kiss"
     }
   },
   "Tuatara outrigger": {
     "untappd": {
-      "id": ""
+      "id": "882339",
+      "style": "Pale Ale - Australian",
+      "IBU": 20,
+      "score": 3.55806,
+      "brewery": "Tuatara Brewery",
+      "country": "New Zealand",
+      "name": "Outrigger - Pacific Pale Ale"
     }
   },
   "Legal tender": {
     "untappd": {
-      "id": ""
+      "id": "1490972",
+      "style": "Lager - Pale",
+      "IBU": 1,
+      "score": 0,
+      "brewery": "Bankstown Sports ",
+      "country": "Australia",
+      "name": "Legal Tender"
     }
   },
   "Lord Nelson dead ahead": {
     "untappd": {
-      "id": ""
+      "id": "1460876",
+      "style": "Golden Ale",
+      "IBU": 30,
+      "score": 3.56088,
+      "brewery": "The Lord Nelson Brewery Hotel",
+      "country": "Australia",
+      "name": "Dead Ahead 175th Anniversary Ale"
     }
   },
   "Skorubrew #5": {
@@ -10105,142 +10207,310 @@
   },
   "Six strings dark red IPA": {
     "untappd": {
-      "id": ""
+      "id": "318875",
+      "style": "IPA - American",
+      "IBU": 51,
+      "score": 3.76646,
+      "brewery": "Six String Brewing Company",
+      "country": "Australia",
+      "name": "Dark Red IPA"
     }
   },
   "Cleanskin Green beer": {
     "untappd": {
-      "id": ""
+      "id": "713411",
+      "style": "Lager - North American Adjunct",
+      "IBU": 0,
+      "score": 2.60443,
+      "brewery": "HiteJinro",
+      "country": "South Korea",
+      "name": "Premium Cleanskin Green Beer"
     }
   },
   "Yenda Hell": {
     "untappd": {
-      "id": ""
+      "id": "846902",
+      "style": "Lager - Helles",
+      "IBU": 0,
+      "score": 3.26613,
+      "brewery": "Australian Beer Company",
+      "country": "Australia",
+      "name": "Yenda Hell"
     }
   },
   "Barossa brewing I can\\'t believe it\\'s not bacon": {
     "untappd": {
-      "id": ""
+      "id": "1557796",
+      "style": "Smoked Beer",
+      "IBU": 23,
+      "score": 3.46598,
+      "brewery": "Barossa Valley Brewing",
+      "country": "Australia",
+      "name": "I Can't Believe It's Not Bacon"
     }
   },
   "West end draught": {
     "untappd": {
-      "id": ""
+      "id": "15461",
+      "style": "Lager - Pale",
+      "IBU": 0,
+      "score": 2.26965,
+      "brewery": "West End Brewery",
+      "country": "Australia",
+      "name": "Draught"
     }
   },
   "Barossa valley hop heaven": {
     "untappd": {
-      "id": ""
+      "id": "1018437",
+      "style": "IPA - American",
+      "IBU": 41,
+      "score": 3.64365,
+      "brewery": "Barossa Valley Brewing",
+      "country": "Australia",
+      "name": "Hop Heaven"
     }
   },
   "Barossa valley SA wit": {
     "untappd": {
-      "id": ""
+      "id": "1600525",
+      "style": "Witbier",
+      "IBU": 14,
+      "score": 3.15217,
+      "brewery": "Barossa Valley Brewing",
+      "country": "Australia",
+      "name": "South Australian Wit"
     }
   },
   "Clare valley bulls eye": {
     "untappd": {
-      "id": ""
+      "id": "439975",
+      "style": "Pale Ale - Australian",
+      "IBU": 0,
+      "score": 3.44142,
+      "brewery": "Clare Valley Brewing Co.",
+      "country": "Australia",
+      "name": "Bulls Eye"
     }
   },
   "Prancing pony sunshine ale": {
     "untappd": {
-      "id": ""
+      "id": "999204",
+      "style": "Blonde Ale",
+      "IBU": 28,
+      "score": 3.52273,
+      "brewery": "Prancing Pony Brewery",
+      "country": "Australia",
+      "name": "Sunshine Ale"
     }
   },
   "Clare valley monkey\\'s uncle": {
     "untappd": {
-      "id": ""
+      "id": "439979",
+      "style": "Red Ale - American Amber / Red",
+      "IBU": 0,
+      "score": 3.39728,
+      "brewery": "Clare Valley Brewing Co.",
+      "country": "Australia",
+      "name": "Monkey's Uncle"
     }
   },
   "Malt fiction session ale": {
     "untappd": {
-      "id": ""
+      "id": "1408815",
+      "style": "Pale Ale - American",
+      "IBU": 27,
+      "score": 3.37031,
+      "brewery": "Malt Fiction",
+      "country": "Australia",
+      "name": "Session Ale"
     }
   },
   "Magic hat smash hits IPA": {
     "untappd": {
-      "id": ""
+      "id": "1390654",
+      "style": "IPA - American",
+      "IBU": 45,
+      "score": 3.45984,
+      "brewery": "Magic Hat Brewing Company",
+      "country": "United States",
+      "name": "S.M.A.S.H. Hits Vol. 1"
     }
   },
   "Magic hat Stealin time": {
     "untappd": {
-      "id": ""
+      "id": "971879",
+      "style": "Pale Wheat Ale - American",
+      "IBU": 20,
+      "score": 3.37489,
+      "brewery": "Magic Hat Brewing Company",
+      "country": "United States",
+      "name": "Stealin' Time"
     }
   },
   "Mornington dogs bollocks": {
     "untappd": {
-      "id": ""
+      "id": "1602188",
+      "style": "Extra Special / Strong Bitter",
+      "IBU": 0,
+      "score": 3.6931,
+      "brewery": "Mornington Peninsula Brewery",
+      "country": "Australia",
+      "name": "Dog’s Bollocks"
     }
   },
   "Innes & Gunn fired oak scotch ale": {
     "untappd": {
-      "id": ""
+      "id": "1506367",
+      "style": "Scotch Ale / Wee Heavy",
+      "IBU": 0,
+      "score": 3.9477,
+      "brewery": "Innis & Gunn",
+      "country": "Scotland",
+      "name": "Fired Oak Scotch Ale"
     }
   },
   "James squire hop thief #8": {
     "untappd": {
-      "id": ""
+      "id": "1649933",
+      "style": "Pale Ale - American",
+      "IBU": 35,
+      "score": 3.49037,
+      "brewery": "Malt Shovel Brewery",
+      "country": "Australia",
+      "name": "James Squire Hop Thief 8"
     }
   },
   "Steam whistle pilsner": {
     "untappd": {
-      "id": ""
+      "id": "7852",
+      "style": "Pilsner - Other",
+      "IBU": 22,
+      "score": 3.44907,
+      "brewery": "Steam Whistle Brewing",
+      "country": "Canada",
+      "name": "Steam Whistle Pilsner"
     }
   },
   "Mismatch Extra pale ale": {
     "untappd": {
-      "id": ""
+      "id": "1249686",
+      "style": "Pale Ale - American",
+      "IBU": 50,
+      "score": 3.72945,
+      "brewery": "Mismatch Brewing Company",
+      "country": "Australia",
+      "name": "Extra Pale Ale"
     }
   },
   "Shark island pale ale": {
     "untappd": {
-      "id": ""
+      "id": "649113",
+      "style": "Pale Ale - American",
+      "IBU": 45,
+      "score": 3.50333,
+      "brewery": "Shark Island Brewing Co.",
+      "country": "Australia",
+      "name": "Shark Island Pale Ale"
     }
   },
   "Shark island summer ale": {
     "untappd": {
-      "id": ""
+      "id": "1220524",
+      "style": "Golden Ale",
+      "IBU": 25,
+      "score": 3.46852,
+      "brewery": "Shark Island Brewing Co.",
+      "country": "Australia",
+      "name": "Greenhills Summer Ale"
     }
   },
   "Blackfont Belgian pale ale": {
     "untappd": {
-      "id": ""
+      "id": "1493077",
+      "style": "Pale Ale - Belgian",
+      "IBU": 0,
+      "score": 3.83824,
+      "brewery": "BlackFont Brewhouse",
+      "country": "Australia",
+      "name": "Belgian Pale Ale"
     }
   },
   "Blackfont saison de Ville": {
     "untappd": {
-      "id": ""
+      "id": "1328437",
+      "style": "Saison / Farmhouse Ale",
+      "IBU": 30,
+      "score": 3.8913,
+      "brewery": "BlackFont Brewhouse",
+      "country": "Australia",
+      "name": "Saison De Ville"
     }
   },
   "Batch juicy as phuck dark": {
     "untappd": {
-      "id": ""
+      "id": "1703739",
+      "style": "IPA - Black / Cascadian Dark Ale",
+      "IBU": 0,
+      "score": 3.97531,
+      "brewery": "Batch Brewing Company",
+      "country": "Australia",
+      "name": "Juicy As Phuck Dark"
     }
   },
   "Batch tank 6 imperial stout": {
     "untappd": {
-      "id": ""
+      "id": "1155350",
+      "style": "Stout - Imperial / Double",
+      "IBU": 0,
+      "score": 4.03656,
+      "brewery": "Batch Brewing Company",
+      "country": "Australia",
+      "name": "Tank 6"
     }
   },
   "Feral smoked porter": {
     "untappd": {
-      "id": ""
+      "id": "33637",
+      "style": "Smoked Beer",
+      "IBU": 22,
+      "score": 3.5693,
+      "brewery": "Feral Brewing Company",
+      "country": "Australia",
+      "name": "Smoked Porter"
     }
   },
   "Hotchkiss six": {
     "untappd": {
-      "id": ""
+      "id": "1487834",
+      "style": "Stout - Other",
+      "IBU": 34,
+      "score": 3.6035,
+      "brewery": "Little Creatures Brewing",
+      "country": "Australia",
+      "name": "The Hotchkiss Six"
     }
   },
   "Anderson valley blood orange gose": {
     "untappd": {
-      "id": ""
+      "id": "791939",
+      "style": "Sour - Gose",
+      "IBU": 0,
+      "score": 3.74238,
+      "brewery": "Anderson Valley Brewing Company",
+      "country": "United States",
+      "name": "Blood Orange Gose"
     }
   },
   "Redbay bearded hobo pale ale": {
     "untappd": {
-      "id": ""
+      "id": "1236152",
+      "style": "Pale Ale - American",
+      "IBU": 0,
+      "score": 3.45192,
+      "brewery": "Redbay Brewing Company",
+      "country": "Australia",
+      "name": "The Bearded Hobo"
     }
   },
   "Redbay Vlad White IPA": {
@@ -10255,7 +10525,13 @@
   },
   "Liebenweiss hefe weissbier": {
     "untappd": {
-      "id": ""
+      "id": "116833",
+      "style": "Hefeweizen",
+      "IBU": 0,
+      "score": 3.53209,
+      "brewery": "Allgäuer Brauhaus",
+      "country": "Germany",
+      "name": "Liebenweiss Hefe-Weissbier"
     }
   },
   "Destroy all humans": {
@@ -10270,52 +10546,112 @@
   },
   "Anderson Valley Hop Ottin IPA": {
     "untappd": {
-      "id": ""
+      "id": "4482",
+      "style": "IPA - American",
+      "IBU": 80,
+      "score": 3.57582,
+      "brewery": "Anderson Valley Brewing Company",
+      "country": "United States",
+      "name": "Hop Ottin IPA"
     }
   },
   "Merchant Hasselsloth west coast IPA": {
     "untappd": {
-      "id": ""
+      "id": "1590140",
+      "style": "IPA - American",
+      "IBU": 75,
+      "score": 3.70756,
+      "brewery": "Merchant Brewing Co.",
+      "country": "Australia",
+      "name": "Hasselsloth"
     }
   },
   "Little brewing death between the tanks DIPA": {
     "untappd": {
-      "id": ""
+      "id": "484884",
+      "style": "IPA - Imperial / Double",
+      "IBU": 113,
+      "score": 4.00147,
+      "brewery": "The Little Brewing Company",
+      "country": "Australia",
+      "name": "Death Between The Tanks"
     }
   },
   "Magic hat poppy agave ale": {
     "untappd": {
-      "id": ""
+      "id": "1473631",
+      "style": "Pale Ale - American",
+      "IBU": 26,
+      "score": 3.42275,
+      "brewery": "Magic Hat Brewing Company",
+      "country": "United States",
+      "name": "Odd Notion - Poppy Agave Ale (Summer 2016)"
     }
   },
   "Basement brew house American pale ale": {
     "untappd": {
-      "id": ""
+      "id": "1793097",
+      "style": "Pale Ale - American",
+      "IBU": 46,
+      "score": 3.43056,
+      "brewery": "Basement Brewhouse",
+      "country": "Australia",
+      "name": "American Pale Ale"
     }
   },
   "Basement brew house sparkling": {
     "untappd": {
-      "id": ""
+      "id": "1793098",
+      "style": "Australian Sparkling Ale",
+      "IBU": 14,
+      "score": 3.27632,
+      "brewery": "Basement Brewhouse",
+      "country": "Australia",
+      "name": "Sparkling Ale"
     }
   },
   "Yulli\\'s fat nerd vanilla porter": {
     "untappd": {
-      "id": ""
+      "id": "734257",
+      "style": "Porter - Other",
+      "IBU": 41,
+      "score": 3.74507,
+      "brewery": "Yulli's Brews",
+      "country": "Australia",
+      "name": "Fat Nerd Vanilla Porter"
     }
   },
   "Wayward Keller instinct": {
     "untappd": {
-      "id": ""
+      "id": "291819",
+      "style": "Kellerbier / Zwickelbier",
+      "IBU": 27,
+      "score": 3.41312,
+      "brewery": "Wayward Brewing",
+      "country": "Australia",
+      "name": "Keller Instinct"
     }
   },
   "White rabbit barrel aged red": {
     "untappd": {
-      "id": ""
+      "id": "1533061",
+      "style": "Sour - Flanders Red Ale",
+      "IBU": 0,
+      "score": 3.63889,
+      "brewery": "White Rabbit",
+      "country": "Australia",
+      "name": "Barrel Aged Red"
     }
   },
   "Brewcult get down American brown": {
     "untappd": {
-      "id": ""
+      "id": "667422",
+      "style": "Brown Ale - American",
+      "IBU": 62,
+      "score": 3.77286,
+      "brewery": "BrewCult",
+      "country": "Australia",
+      "name": "Get Down American Brown"
     }
   }
 }
