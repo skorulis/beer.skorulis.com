@@ -63,6 +63,7 @@ allBeers.each do |item|
 	
 	extra = extraInfo[name]
 	untappd = extra["untappd"]
+	homebrew = extra["homebrew"]
 	if extra == nil
 		missingExtra.push(name)
 	end
@@ -73,9 +74,20 @@ allBeers.each do |item|
 	end
 	
 	country = untappd["country"]
+	if !country && homebrew
+		country = homebrew["country"]
+	end
+
 	style = untappd["style"]
+	if !style && homebrew
+		style = homebrew["style"]
+	end
+
 	ibu = untappd["IBU"]
 	brewery = untappd["brewery"]
+	if !brewery && homebrew
+		brewery = homebrew["brewery"]
+	end
 
 	uRating = nil
 	if untappd["score"]
@@ -88,7 +100,7 @@ allBeers.each do |item|
 		stat["country"] = country
 		increment(countries,country)
 		increment(breweries,brewery)
-		if item["score"] != "null"
+		if item["score"] != "null" && uRating
 			scoreDiffs += uRating - item["score"].to_f
 			untappdRatings[uRating.to_i] += 1
 			scoreDiffCount += 1

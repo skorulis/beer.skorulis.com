@@ -23,6 +23,9 @@ allBeers.each do |item|
 	
 	if old != nil
 		d["untappd"] = old["untappd"]
+		if(old["homebrew"])
+			d["homebrew"] = old["homebrew"]
+		end
 	end
 
 	extraData[item["name"]] = d
