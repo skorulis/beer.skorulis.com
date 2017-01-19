@@ -11,6 +11,7 @@ countries = Hash.new
 breweries = Hash.new
 scoreDiffs = 0
 scoreDiffCount = 0
+stats = Array.new
 
 def increment(hash,key)
 	if key != nil && key.length > 0
@@ -32,12 +33,18 @@ missingExtra = Array.new
 missingUntappdId = Array.new
 
 allBeers.each do |item|
+	stat = Hash.new
+
 	name = item["name"]
+
+	stat["name"] = name;
+	stat["d"] = item["date"]
+
 	if item["score"] == "null"
 		withoutRatings.push(name)
 	else
-		s = item["score"].to_i;
-		ratings[s] = ratings[s] + 1
+		s = item["score"].to_f;
+		stat["score"] = s
 	end
 	
 	nameWords = name.split
@@ -50,6 +57,8 @@ allBeers.each do |item|
 	if item["pct"] == "null"
 		#puts name
 		missingPct.push(name)
+	else
+		stat["pct"] = item["pct"].to_f
 	end
 	
 	extra = extraInfo[name]
@@ -64,18 +73,45 @@ allBeers.each do |item|
 	end
 	
 	country = untappd["country"]
+	style = untappd["style"]
+	ibu = untappd["IBU"]
+	brewery = untappd["brewery"]
+
+	uRating = nil
+	if untappd["score"]
+		uRating = untappd["score"] * 2
+	end
+	
+
 
 	if country
+		stat["country"] = country
 		increment(countries,country)
-		increment(breweries,untappd["brewery"])
+		increment(breweries,brewery)
 		if item["score"] != "null"
-			uRating = untappd["score"] * 2 
 			scoreDiffs += uRating - item["score"].to_f
 			untappdRatings[uRating.to_i] += 1
 			scoreDiffCount += 1
 		end
 	end
-	
+
+	if ibu && ibu > 0
+		stat["IBU"] = ibu
+	end
+
+	if style
+		stat["style"] = style
+	end
+
+	if brewery
+		stat["b"] = brewery
+	end
+
+	if uRating && uRating > 0
+		stat["uts"] = uRating
+	end
+
+	stats << stat
 end
 
 puts "missing ratings " + withoutRatings.length.to_s
@@ -86,3 +122,7 @@ puts "avg rating diff = " + (scoreDiffs/scoreDiffCount).to_s
 puts JSON.pretty_generate(countries)
 puts ratings
 puts untappdRatings
+
+File.open("js/stats.json","w") do |f|
+  f.write(JSON.pretty_generate(stats))
+end

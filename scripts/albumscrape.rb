@@ -4,7 +4,7 @@ require 'httpclient'
 require 'json'
 
 # Need to generate a new token every hour or so
-@token = "EAACEdEose0cBANrBw0hlB8PABJKUvLZAjA0eKZBDOCFwsv212CW172pc105NDaE0qxDZBterZBZB8NwIsoud6HxecmY01IYkUtCtteeU9YShWKx0ttxZAPYnxqXCQqLz6t3VHARWDRMK67NjevnBtWcQiEIFV3l0dyGshJ4EK2iQZDZD";
+@token = "EAACEdEose0cBALSdZATXvTyn4ZCYdMZA3J4otjp7Dybv6ZCspNQjXY6VwhgHZBTyoUuolSX6rmZBYsBJ11uAj9x0cf48W4Shfrtj9TbmV1VlRUZCyQiZB1VhDVsBIqgXZBAM9n5xkzwuFURyEKMjiZC5J5haABRZBWqGFOclHhuZC9amgAZDZD";
 @albums = ["10151283325498745","10152534310003745"]
 @allBeers = [];
 @next = ""
@@ -45,6 +45,8 @@ def downloadChunk(url)
 	
 	count = 0;
 	photos.each{|value|
+
+
 	    lines = value["name"].split(/\r?\n/);
 	    pct = lines[0][/[0-9]?[0-9]?(\.[0-9]{0,2})?%/]
 	    if pct
@@ -54,7 +56,6 @@ def downloadChunk(url)
 	        pct = "null"
 	    end
 	    
-	    puts lines
 	    score = lines[1][/[0-9.]{1,3}.10/]
 	    if score
 	        lines[1][score] = "";
@@ -70,6 +71,9 @@ def downloadChunk(url)
 		hash["img"] = value["images"][4]["source"];
 		hash["pct"] = pct;
 		hash["link"] = value["link"]
+		hash["date"] = value["created_time"][0..9]
+
+		puts hash["date"]
 
 		hash["score"] = score;
 		@allBeers.push(hash);

@@ -9531,11 +9531,21 @@
   "Skorubrew #1 Pale Ale": {
     "untappd": {
       "id": ""
+    },
+    "homebrew":{
+      "style":"Pale Ale - Australian",
+      "country": "Australia",
+      "brewery":"Skorubrew"
     }
   },
   "Skorubrew #2 Pale Ale": {
     "untappd": {
       "id": ""
+    },
+    "homebrew":{
+      "style":"Pale Ale - English",
+      "country": "Australia",
+      "brewery":"Skorubrew"
     }
   },
   "Duel Hoppy Lager": {
@@ -9684,6 +9694,11 @@
   "Skorubrew #3": {
     "untappd": {
       "id": ""
+    },
+    "homebrew":{
+      "style":"Pale Ale - English",
+      "country": "Australia",
+      "brewery":"Skorubrew"
     }
   },
   "Beirut beer": {
@@ -9788,6 +9803,11 @@
   "Skorubrew stout #4": {
     "untappd": {
       "id": ""
+    },
+    "homebrew":{
+      "style":"Stout - Other",
+      "country": "Australia",
+      "brewery":"Skorubrew"
     }
   },
   "Batch smoking Russian party guy": {
@@ -10139,6 +10159,11 @@
   "Skorubrew #6": {
     "untappd": {
       "id": ""
+    },
+    "homebrew":{
+      "style":"IPA - American",
+      "country": "Australia",
+      "brewery":"Skorubrew"
     }
   },
   "Magic rock salty kiss": {
@@ -10188,16 +10213,31 @@
   "Skorubrew #5": {
     "untappd": {
       "id": ""
+    },
+    "homebrew":{
+      "style":"Pale Ale - Belgian",
+      "country": "Australia",
+      "brewery":"Skorubrew"
     }
   },
   "Skorubrew #7": {
     "untappd": {
       "id": ""
+    },
+    "homebrew":{
+      "style":"Pale Ale - Australian",
+      "country": "Australia",
+      "brewery":"Skorubrew"
     }
   },
   "Skorubrew #8": {
     "untappd": {
       "id": ""
+    },
+    "homebrew":{
+      "style":"Stout - Milk / Sweet",
+      "country": "Australia",
+      "brewery":"Skorubrew"
     }
   },
   "Six strings dark red IPA": {
