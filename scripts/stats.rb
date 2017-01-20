@@ -68,8 +68,8 @@ allBeers.each do |item|
 		missingExtra.push(name)
 	end
 	
-	if untappd["id"].length == 0
-		
+	if untappd["id"].length == 0 && !homebrew
+		puts name
 		missingUntappdId.push(name)
 	end
 	

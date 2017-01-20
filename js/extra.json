@@ -329,7 +329,7 @@
   },
   "Kestrel Super lager": {
     "untappd": {
-      "id": ""
+      "id": "1572472"
     }
   },
   "Carlsberg special": {
@@ -2891,7 +2891,7 @@
   },
   "Keler": {
     "untappd": {
-      "id": ""
+      "id": "777834"
     }
   },
   "Ambar": {
@@ -2940,7 +2940,9 @@
   },
   "Blas trigo": {
     "untappd": {
-      "id": ""
+      "id": "",
+      "brewery":"Tito Blas",
+      "country":"Spain"
     }
   },
   "Faro Lambic": {
@@ -3687,7 +3689,7 @@
   },
   "Cmapbiu Menbhuk": {
     "untappd": {
-      "id": ""
+      "id": "430618"
     }
   },
   "Cmapbiu": {
@@ -3725,7 +3727,8 @@
   },
   "злашен даб": {
     "untappd": {
-      "id": ""
+      "id": "",
+      "country":"Macedonia"
     }
   },
   "Zelta premium": {
@@ -4049,7 +4052,7 @@
   },
   "Cave creek chili beer": {
     "untappd": {
-      "id": ""
+      "id": "77737"
     }
   },
   "Partizan dubbel": {
@@ -4912,7 +4915,7 @@
   },
   "Viking": {
     "untappd": {
-      "id": ""
+      "id": "157604"
     }
   },
   "4 Pines stout": {
@@ -7177,7 +7180,7 @@
   },
   "Ale house pale draught": {
     "untappd": {
-      "id": ""
+      "id": "550752"
     }
   },
   "2 brothers growler": {
@@ -10065,7 +10068,7 @@
   },
   "Namysrów pils": {
     "untappd": {
-      "id": ""
+      "id": "396095"
     }
   },
   "Sierra Nevada Otra vez": {
@@ -10550,12 +10553,16 @@
   },
   "Redbay Vlad White IPA": {
     "untappd": {
-      "id": ""
+      "id": "",
+      "country": "Australia",
+      "brewery": "Redbay Brewing Company"
     }
   },
   "Redbay Black gold coffee porter": {
     "untappd": {
-      "id": ""
+      "id": "",
+      "country": "Australia",
+      "brewery": "Redbay Brewing Company"
     }
   },
   "Liebenweiss hefe weissbier": {
@@ -10576,7 +10583,9 @@
   },
   "Willie smith triple": {
     "untappd": {
-      "id": ""
+      "id": "",
+      "brewery":"William Smith & Sons",
+      "country":"Australia"
     }
   },
   "Anderson Valley Hop Ottin IPA": {
