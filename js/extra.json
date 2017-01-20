@@ -329,7 +329,13 @@
   },
   "Kestrel Super lager": {
     "untappd": {
-      "id": "1572472"
+      "id": "1572472",
+      "style": "Lager - Euro Strong",
+      "IBU": 0,
+      "score": 2.70357,
+      "brewery": "Caledonian Brewing Company ",
+      "country": "Scotland",
+      "name": "Kestrel Super Premium"
     }
   },
   "Carlsberg special": {
@@ -2891,7 +2897,13 @@
   },
   "Keler": {
     "untappd": {
-      "id": "777834"
+      "id": "777834",
+      "style": "Lager - Pale",
+      "IBU": 0,
+      "score": 2.87927,
+      "brewery": "Grupo Damm",
+      "country": "Spain",
+      "name": "Keler Lager"
     }
   },
   "Ambar": {
@@ -2941,8 +2953,8 @@
   "Blas trigo": {
     "untappd": {
       "id": "",
-      "brewery":"Tito Blas",
-      "country":"Spain"
+      "brewery": "Tito Blas",
+      "country": "Spain"
     }
   },
   "Faro Lambic": {
@@ -3689,7 +3701,13 @@
   },
   "Cmapbiu Menbhuk": {
     "untappd": {
-      "id": "430618"
+      "id": "430618",
+      "style": "Lager - Euro Dark",
+      "IBU": 0,
+      "score": 2.83137,
+      "brewery": "Moscow-Efes Brewery (Пивоварня Москва-Эфес)",
+      "country": "Russia",
+      "name": "Stary Melnik Iz Bochonka Temnoye (Старый Мельник Из Бочонка Темное)"
     }
   },
   "Cmapbiu": {
@@ -3728,7 +3746,7 @@
   "злашен даб": {
     "untappd": {
       "id": "",
-      "country":"Macedonia"
+      "country": "Macedonia"
     }
   },
   "Zelta premium": {
@@ -4052,7 +4070,13 @@
   },
   "Cave creek chili beer": {
     "untappd": {
-      "id": "77737"
+      "id": "77737",
+      "style": "Spiced / Herbed Beer",
+      "IBU": 0,
+      "score": 2.75958,
+      "brewery": "Cervecería Mexicana S. de R.L. de C.V. (Tecate)",
+      "country": "Mexico",
+      "name": "Original C Cave Creek Chili Beer - Cerveza Con Chili"
     }
   },
   "Partizan dubbel": {
@@ -4915,7 +4939,13 @@
   },
   "Viking": {
     "untappd": {
-      "id": "157604"
+      "id": "157604",
+      "style": "Pilsner - Other",
+      "IBU": 0,
+      "score": 3.03356,
+      "brewery": "Viking Ölgerd",
+      "country": "Iceland",
+      "name": "Pilsner Bjor"
     }
   },
   "4 Pines stout": {
@@ -7180,7 +7210,13 @@
   },
   "Ale house pale draught": {
     "untappd": {
-      "id": "550752"
+      "id": "550752",
+      "style": "Lager - Pale",
+      "IBU": 0,
+      "score": 2.86207,
+      "brewery": "Australian Beer Company",
+      "country": "Australia",
+      "name": "Alehouse Australian Premium Draught"
     }
   },
   "2 brothers growler": {
@@ -9535,20 +9571,20 @@
     "untappd": {
       "id": ""
     },
-    "homebrew":{
-      "style":"Pale Ale - Australian",
+    "homebrew": {
+      "style": "Pale Ale - Australian",
       "country": "Australia",
-      "brewery":"Skorubrew"
+      "brewery": "Skorubrew"
     }
   },
   "Skorubrew #2 Pale Ale": {
     "untappd": {
       "id": ""
     },
-    "homebrew":{
-      "style":"Pale Ale - English",
+    "homebrew": {
+      "style": "Pale Ale - English",
       "country": "Australia",
-      "brewery":"Skorubrew"
+      "brewery": "Skorubrew"
     }
   },
   "Duel Hoppy Lager": {
@@ -9698,10 +9734,10 @@
     "untappd": {
       "id": ""
     },
-    "homebrew":{
-      "style":"Pale Ale - English",
+    "homebrew": {
+      "style": "Pale Ale - English",
       "country": "Australia",
-      "brewery":"Skorubrew"
+      "brewery": "Skorubrew"
     }
   },
   "Beirut beer": {
@@ -9807,10 +9843,10 @@
     "untappd": {
       "id": ""
     },
-    "homebrew":{
-      "style":"Stout - Other",
+    "homebrew": {
+      "style": "Stout - Other",
       "country": "Australia",
-      "brewery":"Skorubrew"
+      "brewery": "Skorubrew"
     }
   },
   "Batch smoking Russian party guy": {
@@ -10068,7 +10104,13 @@
   },
   "Namysrów pils": {
     "untappd": {
-      "id": "396095"
+      "id": "396095",
+      "style": "Pilsner - Other",
+      "IBU": 0,
+      "score": 3.08364,
+      "brewery": "Browar Namysłów",
+      "country": "Poland",
+      "name": "Namysłów Pils"
     }
   },
   "Sierra Nevada Otra vez": {
@@ -10163,10 +10205,10 @@
     "untappd": {
       "id": ""
     },
-    "homebrew":{
-      "style":"IPA - American",
+    "homebrew": {
+      "style": "IPA - American",
       "country": "Australia",
-      "brewery":"Skorubrew"
+      "brewery": "Skorubrew"
     }
   },
   "Magic rock salty kiss": {
@@ -10217,30 +10259,30 @@
     "untappd": {
       "id": ""
     },
-    "homebrew":{
-      "style":"Pale Ale - Belgian",
+    "homebrew": {
+      "style": "Pale Ale - Belgian",
       "country": "Australia",
-      "brewery":"Skorubrew"
+      "brewery": "Skorubrew"
     }
   },
   "Skorubrew #7": {
     "untappd": {
       "id": ""
     },
-    "homebrew":{
-      "style":"Pale Ale - Australian",
+    "homebrew": {
+      "style": "Pale Ale - Australian",
       "country": "Australia",
-      "brewery":"Skorubrew"
+      "brewery": "Skorubrew"
     }
   },
   "Skorubrew #8": {
     "untappd": {
       "id": ""
     },
-    "homebrew":{
-      "style":"Stout - Milk / Sweet",
+    "homebrew": {
+      "style": "Stout - Milk / Sweet",
       "country": "Australia",
-      "brewery":"Skorubrew"
+      "brewery": "Skorubrew"
     }
   },
   "Six strings dark red IPA": {
@@ -10584,8 +10626,8 @@
   "Willie smith triple": {
     "untappd": {
       "id": "",
-      "brewery":"William Smith & Sons",
-      "country":"Australia"
+      "brewery": "William Smith & Sons",
+      "country": "Australia"
     }
   },
   "Anderson Valley Hop Ottin IPA": {

@@ -314,7 +314,11 @@
     "name": "Kestrel Super lager",
     "d": "2013-01-13",
     "score": 3.0,
-    "pct": 9.0
+    "pct": 9.0,
+    "country": "Scotland",
+    "style": "Lager - Euro Strong",
+    "b": "Caledonian Brewing Company ",
+    "uts": 5.40714
   },
   {
     "name": "Carlsberg special",
@@ -2702,7 +2706,11 @@
   {
     "name": "Keler",
     "d": "2013-07-19",
-    "score": 7.0
+    "score": 7.0,
+    "country": "Spain",
+    "style": "Lager - Pale",
+    "b": "Grupo Damm",
+    "uts": 5.75854
   },
   {
     "name": "Ambar",
@@ -2748,7 +2756,9 @@
     "name": "Blas trigo",
     "d": "2013-07-19",
     "score": 7.0,
-    "pct": 6.0
+    "pct": 6.0,
+    "country": "Spain",
+    "b": "Tito Blas"
   },
   {
     "name": "Faro Lambic",
@@ -3448,7 +3458,11 @@
     "name": "Cmapbiu Menbhuk",
     "d": "2013-08-18",
     "score": 4.0,
-    "pct": 4.8
+    "pct": 4.8,
+    "country": "Russia",
+    "style": "Lager - Euro Dark",
+    "b": "Moscow-Efes Brewery (Пивоварня Москва-Эфес)",
+    "uts": 5.66274
   },
   {
     "name": "Cmapbiu",
@@ -3485,7 +3499,8 @@
     "name": "злашен даб",
     "d": "2013-03-28",
     "score": 4.0,
-    "pct": 4.5
+    "pct": 4.5,
+    "country": "Macedonia"
   },
   {
     "name": "Zelta premium",
@@ -3785,7 +3800,11 @@
     "name": "Cave creek chili beer",
     "d": "2013-10-25",
     "score": 6.0,
-    "pct": 4.2
+    "pct": 4.2,
+    "country": "Mexico",
+    "style": "Spiced / Herbed Beer",
+    "b": "Cervecería Mexicana S. de R.L. de C.V. (Tecate)",
+    "uts": 5.51916
   },
   {
     "name": "Partizan dubbel",
@@ -4581,7 +4600,11 @@
     "name": "Viking",
     "d": "2014-03-18",
     "score": 5.0,
-    "pct": 4.4
+    "pct": 4.4,
+    "country": "Iceland",
+    "style": "Pilsner - Other",
+    "b": "Viking Ölgerd",
+    "uts": 6.06712
   },
   {
     "name": "4 Pines stout",
@@ -6716,7 +6739,11 @@
     "name": "Ale house pale draught",
     "d": "2015-05-01",
     "score": 6.0,
-    "pct": 4.2
+    "pct": 4.2,
+    "country": "Australia",
+    "style": "Lager - Pale",
+    "b": "Australian Beer Company",
+    "uts": 5.72414
   },
   {
     "name": "2 brothers growler",
@@ -9484,7 +9511,11 @@
     "name": "Namysrów pils",
     "d": "2016-06-16",
     "score": 5.0,
-    "pct": 6.0
+    "pct": 6.0,
+    "country": "Poland",
+    "style": "Pilsner - Other",
+    "b": "Browar Namysłów",
+    "uts": 6.16728
   },
   {
     "name": "Sierra Nevada Otra vez",
@@ -9951,13 +9982,17 @@
     "name": "Redbay Vlad White IPA",
     "d": "2016-09-21",
     "score": 8.5,
-    "pct": 6.0
+    "pct": 6.0,
+    "country": "Australia",
+    "b": "Redbay Brewing Company"
   },
   {
     "name": "Redbay Black gold coffee porter",
     "d": "2016-09-21",
     "score": 7.0,
-    "pct": 5.9
+    "pct": 5.9,
+    "country": "Australia",
+    "b": "Redbay Brewing Company"
   },
   {
     "name": "Liebenweiss hefe weissbier",
@@ -9978,7 +10013,9 @@
     "name": "Willie smith triple",
     "d": "2016-09-21",
     "score": 8.5,
-    "pct": 8.6
+    "pct": 8.6,
+    "country": "Australia",
+    "b": "William Smith & Sons"
   },
   {
     "name": "Anderson Valley Hop Ottin IPA",
