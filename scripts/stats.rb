@@ -54,18 +54,22 @@ allBeers.each do |item|
 		end
 		words[w] = words[w] + 1
 	end
-	if item["pct"] == "null"
-		#puts name
-		missingPct.push(name)
-	else
-		stat["pct"] = item["pct"].to_f
-	end
-	
+
 	extra = extraInfo[name]
 	untappd = extra["untappd"]
 	homebrew = extra["homebrew"]
 	if extra == nil
 		missingExtra.push(name)
+	end
+
+	if item["pct"] != "null"
+		stat["pct"] = item["pct"].to_f
+	elsif untappd["abv"]
+		stat["pct"] = untappd["abv"]
+	end
+
+	if !stat["pct"]
+		missingPct.push(name)
 	end
 	
 	if untappd["id"].length == 0 && !homebrew
@@ -97,7 +101,7 @@ allBeers.each do |item|
 
 
 	if country
-		stat["country"] = country
+		stat["c"] = country
 		increment(countries,country)
 		increment(breweries,brewery)
 		if item["score"] != "null" && uRating
@@ -127,7 +131,7 @@ allBeers.each do |item|
 end
 
 puts "missing ratings " + withoutRatings.length.to_s
-puts "missing pct " + missingPct.length.to_s
+puts "missing pct " + missingPct.to_s
 puts "missing extra " + missingExtra.length.to_s
 puts "missing untappdId " + missingUntappdId.length.to_s
 puts "avg rating diff = " + (scoreDiffs/scoreDiffCount).to_s

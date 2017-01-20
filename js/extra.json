@@ -2898,12 +2898,13 @@
   "Keler": {
     "untappd": {
       "id": "777834",
-      "style": "Lager - Pale",
       "IBU": 0,
       "score": 2.87927,
       "brewery": "Grupo Damm",
       "country": "Spain",
-      "name": "Keler Lager"
+      "name": "Keler Lager",
+      "style": "Lager - Pale",
+      "abv": 4.6
     }
   },
   "Ambar": {
@@ -4170,12 +4171,13 @@
   "Aldaris Dumaku": {
     "untappd": {
       "id": "33718",
-      "style": "Lager - Pale",
       "IBU": 0,
-      "score": 3.01271,
+      "score": 2.99612,
       "brewery": "Aldaris",
       "country": "Latvia",
-      "name": "Dūmaku Nefiltrēts"
+      "name": "Dūmaku Nefiltrēts",
+      "style": "Lager - Pale",
+      "abv": 0
     }
   },
   "Post road pumpkin ale": {
@@ -4467,12 +4469,13 @@
   "Leffe": {
     "untappd": {
       "id": "5940",
-      "style": "Blonde Ale - Belgian Blonde / Golden",
       "IBU": 20,
-      "score": 3.5828,
+      "score": 3.60197,
       "brewery": "Abbaye de Leffe",
       "country": "Belgium",
-      "name": "Leffe Blonde / Blond"
+      "name": "Leffe Blonde / Blond",
+      "style": "Blonde Ale - Belgian Blonde / Golden",
+      "abv": 6.6
     }
   },
   "Steen Brugge": {
@@ -4753,34 +4756,37 @@
   "Little creatures original pilsner": {
     "untappd": {
       "id": "19295",
-      "style": "Pilsner - Other",
-      "IBU": 27,
-      "score": 3.25862,
+      "IBU": 40,
+      "score": 3.26783,
       "brewery": "Little Creatures Brewing",
       "country": "Australia",
-      "name": "Original Pilsner"
+      "name": "Original Pilsner",
+      "style": "Pilsner - Other",
+      "abv": 4.5
     }
   },
   "Young Henry's real ale": {
     "untappd": {
       "id": "157257",
-      "style": "English Bitter",
       "IBU": 40,
-      "score": 3.49355,
+      "score": 3.50114,
       "brewery": "Young Henrys Brewing Company",
       "country": "Australia",
-      "name": "Real Ale"
+      "name": "Real Ale",
+      "style": "English Bitter",
+      "abv": 4
     }
   },
   "Stone and wood pacific ale": {
     "untappd": {
       "id": "626326",
-      "style": "Pale Ale - Australian",
       "IBU": 0,
-      "score": 3.75417,
+      "score": 3.74408,
       "brewery": "Stone & Wood",
       "country": "Australia",
-      "name": "Pacific Ale"
+      "name": "Pacific Ale",
+      "style": "Pale Ale - Australian",
+      "abv": 4.4
     }
   },
   "Murray's angry man": {
@@ -4819,56 +4825,61 @@
   "Brookvale union ginger beer": {
     "untappd": {
       "id": "425095",
-      "style": "Ginger Beer",
       "IBU": 0,
-      "score": 3.88095,
+      "score": 3.89608,
       "brewery": "4 Pines Brewing Company",
       "country": "Australia",
-      "name": "Brookvale Union Ginger Beer"
+      "name": "Brookvale Union Ginger Beer",
+      "style": "Ginger Beer",
+      "abv": 4
     }
   },
   "Bakalar": {
     "untappd": {
       "id": "178304",
-      "style": "Pilsner - Czech",
       "IBU": 0,
-      "score": 3.06777,
+      "score": 3.07925,
       "brewery": "Tradiční pivovar v Rakovníku",
       "country": "Czech Republic",
-      "name": "Bakalář Světlé výčepní"
+      "name": "Bakalář Světlé výčepní",
+      "style": "Pilsner - Czech",
+      "abv": 4
     }
   },
   "Minimum chips": {
     "untappd": {
       "id": "238946",
-      "style": "Lager - Pale",
       "IBU": 29,
-      "score": 3.15103,
+      "score": 3.16418,
       "brewery": "Matilda Bay Brewing Company",
       "country": "Australia",
-      "name": "Minimum Chips"
+      "name": "Minimum Chips",
+      "style": "Lager - Pale",
+      "abv": 4.7
     }
   },
   "Aguila": {
     "untappd": {
       "id": "19729",
-      "style": "Lager - North American Adjunct",
       "IBU": 0,
-      "score": 2.67982,
+      "score": 2.71752,
       "brewery": "Cervecería Bavaria",
       "country": "Colombia",
-      "name": "Aguila"
+      "name": "Aguila",
+      "style": "Lager - North American Adjunct",
+      "abv": 4
     }
   },
   "The grifter pale ale": {
     "untappd": {
       "id": "189684",
-      "style": "Pale Ale - Australian",
       "IBU": 0,
-      "score": 3.60377,
+      "score": 3.61612,
       "brewery": "Grifter Brewing Company",
       "country": "Australia",
-      "name": "Pale Ale"
+      "name": "Pale Ale",
+      "style": "Pale Ale - Australian",
+      "abv": 5
     }
   },
   "Monteith’s pale ale": {
@@ -5017,23 +5028,25 @@
   "James Squire Hop Thief": {
     "untappd": {
       "id": "967571",
-      "style": "Pale Ale - American",
       "IBU": 40,
-      "score": 3.55688,
-      "brewery": "Malt Shovel Brewery (James Squire)",
+      "score": 3.57634,
+      "brewery": "Malt Shovel Brewery",
       "country": "Australia",
-      "name": "James Squire Hop Thief 7"
+      "name": "James Squire Hop Thief 7",
+      "style": "Pale Ale - American",
+      "abv": 5
     }
   },
   "James Squire The Constable": {
     "untappd": {
       "id": "468177",
-      "style": "English Bitter",
-      "IBU": 0,
-      "score": 3.27517,
-      "brewery": "Malt Shovel Brewery (James Squire)",
+      "IBU": 28,
+      "score": 3.27696,
+      "brewery": "Malt Shovel Brewery",
       "country": "Australia",
-      "name": "James Squire The Constable"
+      "name": "James Squire The Constable",
+      "style": "English Bitter",
+      "abv": 3.4
     }
   },
   "Australian brewery pale ale": {
@@ -5094,12 +5107,13 @@
   "Opera bar pale ale": {
     "untappd": {
       "id": "327314",
-      "style": "Pale Ale - American",
       "IBU": 0,
-      "score": 3.2277,
+      "score": 3.22531,
       "brewery": "Opera Bar",
       "country": "Australia",
-      "name": "Opera Bar Organic Pale Ale"
+      "name": "Opera Bar Organic Pale Ale",
+      "style": "Pale Ale - American",
+      "abv": 4.6
     }
   },
   "Bingo wings": {
@@ -5126,7 +5140,14 @@
   },
   "Bee Sting": {
     "untappd": {
-      "id": ""
+      "id": "63260",
+      "style": "Pale Wheat Ale - American",
+      "IBU": 17,
+      "score": 3.18058,
+      "brewery": "Barossa Valley Brewing",
+      "country": "Australia",
+      "name": "Bee Sting",
+      "abv": 5
     }
   },
   "Stefano’s pilsner": {
@@ -5231,12 +5252,13 @@
   "Bintang": {
     "untappd": {
       "id": "10434",
-      "style": "Pilsner - Other",
       "IBU": 8,
-      "score": 2.88271,
+      "score": 2.92686,
       "brewery": "PT Multi Bintang Indonesia Tbk.",
       "country": "Indonesia",
-      "name": "Bintang Pilsener"
+      "name": "Bintang Pilsener",
+      "style": "Pilsner - Other",
+      "abv": 4.7
     }
   },
   "Cats shank kolsch": {
@@ -5418,12 +5440,13 @@
   "Cascade bright ale": {
     "untappd": {
       "id": "466884",
-      "style": "Pale Ale - Australian",
       "IBU": 23,
-      "score": 2.94682,
+      "score": 2.95026,
       "brewery": "Cascade Brewery Co. (Australia)",
       "country": "Australia",
-      "name": "Bright Ale"
+      "name": "Bright Ale",
+      "style": "Pale Ale - Australian",
+      "abv": 4.2
     }
   },
   "Matso’s ginger beer": {
@@ -5517,12 +5540,13 @@
   "Grain lager": {
     "untappd": {
       "id": "263709",
-      "style": "Lager - Pale",
       "IBU": 0,
       "score": 3.17647,
       "brewery": "Rocks Brewing Co",
       "country": "Australia",
-      "name": "Grain Lager"
+      "name": "Grain Lager",
+      "style": "Lager - Pale",
+      "abv": 0
     }
   },
   "Hop Hog IPA": {
@@ -5627,12 +5651,13 @@
   "Snaatch lager": {
     "untappd": {
       "id": "1017209",
-      "style": "Lager - Pale",
       "IBU": 0,
-      "score": 2.36,
+      "score": 2.41667,
       "brewery": "Sydney Brewery",
       "country": "Australia",
-      "name": "Snaatch Lager"
+      "name": "Snaatch Lager",
+      "style": "Lager - Pale",
+      "abv": 0
     }
   },
   "Mexicali": {
