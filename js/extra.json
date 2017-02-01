@@ -10764,5 +10764,472 @@
       "country": "Australia",
       "name": "Get Down American Brown"
     }
+  },
+  "Wayward Pine-a-pils": {
+    "untappd": {
+      "id": "1785112",
+      "style": "Pilsner - Other",
+      "IBU": 18,
+      "score": 3.62591,
+      "brewery": "Wayward Brewing",
+      "country": "Australia",
+      "name": "Pine-A-Pils",
+      "abv": 4.3
+    }
+  },
+  "Wayward smokin aces": {
+    "untappd": {
+      "id": "1783878",
+      "style": "Rauchbier",
+      "IBU": 35,
+      "score": 3.75962,
+      "brewery": "Wayward Brewing",
+      "country": "Australia",
+      "name": "Smokin' Aces",
+      "abv": 5.7
+    }
+  },
+  "Wayward saison": {
+    "untappd": {
+      "id": "1456623",
+      "style": "Saison / Farmhouse Ale",
+      "IBU": 10,
+      "score": 3.54042,
+      "brewery": "Wayward Brewing",
+      "country": "Australia",
+      "name": "La Saison Petite",
+      "abv": 4.5
+    }
+  },
+  "Wayward  fusami": {
+    "untappd": {
+      "id": "936462",
+      "style": "Lager - IPL (India Pale Lager)",
+      "IBU": 55,
+      "score": 3.67944,
+      "brewery": "Wayward Brewing",
+      "country": "Australia",
+      "name": "FUSAMI Victory",
+      "abv": 6.1
+    }
+  },
+  "Stone & wood garden ale": {
+    "untappd": {
+      "id": "259372",
+      "style": "Pale Ale - Australian",
+      "IBU": 0,
+      "score": 3.47403,
+      "brewery": "Stone & Wood",
+      "country": "Australia",
+      "name": "Garden Ale",
+      "abv": 3.5
+    }
+  },
+  "4 pines hoppy dobblebock": {
+    "untappd": {
+      "id": "1701201",
+      "style": "Doppelbock ",
+      "IBU": 40,
+      "score": 3.8285,
+      "brewery": "4 Pines Brewing Company",
+      "country": "Australia",
+      "name": "Keller Door: Hoppy Doppelbock",
+      "abv": 7.5
+    }
+  },
+  "Phoenix beer": {
+    "untappd": {
+      "id": "29407",
+      "style": "Lager - Pale",
+      "IBU": 0,
+      "score": 2.86033,
+      "brewery": "Phoenix Beverages",
+      "country": "Mauritius",
+      "name": "Phoenix Beer",
+      "abv": 5
+    }
+  },
+  "Brewdog Jet Black Heart": {
+    "untappd": {
+      "id": "1416253",
+      "style": "Stout - Milk / Sweet",
+      "IBU": 30,
+      "score": 3.8191,
+      "brewery": "BrewDog",
+      "country": "Scotland",
+      "name": "Jet Black Heart",
+      "abv": 4.7
+    }
+  },
+  "FoxHat metric IPA": {
+    "untappd": {
+      "id": "1138359",
+      "style": "IPA - Imperial / Double",
+      "IBU": 80,
+      "score": 3.81141,
+      "brewery": "Fox Hat Brewing",
+      "country": "Australia",
+      "name": "Metric IPA",
+      "abv": 7
+    }
+  },
+  "Brewdog Ace of Simcoe": {
+    "untappd": {
+      "id": "1458004",
+      "style": "IPA - Session / India Session Ale",
+      "IBU": 40,
+      "score": 3.65092,
+      "brewery": "BrewDog",
+      "country": "Scotland",
+      "name": "Ace of Simcoe",
+      "abv": 4.5
+    }
+  },
+  "Boatrocker hop bomb IPA": {
+    "untappd": {
+      "id": "363408",
+      "style": "IPA - American",
+      "IBU": 60,
+      "score": 3.8022,
+      "brewery": "Boatrocker Brewing Company",
+      "country": "Australia",
+      "name": "Hop Bomb IPA",
+      "abv": 6.5
+    }
+  },
+  "Skorubrew #13 rice ale": {
+    "untappd": {
+      "id": ""
+    },
+    "homebrew": {
+      "style": "Pale Ale - Australian",
+      "country": "Australia",
+      "brewery": "Skorubrew"
+    }
+  },
+  "Oskar blues pinner": {
+    "untappd": {
+      "id": "1450783",
+      "style": "IPA - Session / India Session Ale",
+      "IBU": 40,
+      "score": 3.71462,
+      "brewery": "Oskar Blues Brewery",
+      "country": "United States",
+      "name": "Passion Fruit Pinner",
+      "abv": 4.9
+    }
+  },
+  "Skorubrew #9 Pale ale": {
+    "untappd": {
+      "id": ""
+    },
+    "homebrew": {
+      "style": "Pale Ale - English",
+      "country": "Australia",
+      "brewery": "Skorubrew"
+    }
+  },
+  "Boatrocker tripel": {
+    "untappd": {
+      "id": "1655630",
+      "style": "Belgian Tripel",
+      "IBU": 0,
+      "score": 3.89315,
+      "brewery": "Boatrocker Brewing Company",
+      "country": "Australia",
+      "name": "Tripel (2016)",
+      "abv": 9.6
+    }
+  },
+  "Mornington hop culture": {
+    "untappd": {
+      "id": "1663139",
+      "style": "IPA - Session / India Session Ale",
+      "IBU": 0,
+      "score": 3.81467,
+      "brewery": "Mornington Peninsula Brewery",
+      "country": "Australia",
+      "name": "Hop Culture",
+      "abv": 4.9
+    }
+  },
+  "Shenanigans malt assault": {
+    "untappd": {
+      "id": "1143738",
+      "style": "Smoked Beer",
+      "IBU": 29,
+      "score": 3.69988,
+      "brewery": "Shenanigans Brewing Co.",
+      "country": "Australia",
+      "name": "Malt Assault",
+      "abv": 6.2
+    }
+  },
+  "Brewdog elvis juice": {
+    "untappd": {
+      "id": "1441008",
+      "style": "IPA - American",
+      "IBU": 40,
+      "score": 3.88631,
+      "brewery": "BrewDog",
+      "country": "Scotland",
+      "name": "Elvis Juice",
+      "abv": 6.5
+    }
+  },
+  "Fox hat lusty lager": {
+    "untappd": {
+      "id": "1338046",
+      "style": "Lager - Euro Strong",
+      "IBU": 48,
+      "score": 3.64706,
+      "brewery": "Fox Hat Brewing",
+      "country": "Australia",
+      "name": "Lusty Lager",
+      "abv": 6
+    }
+  },
+  "Nomad freshie salt & pepper": {
+    "untappd": {
+      "id": "1032759",
+      "style": "Sour - Gose",
+      "IBU": 15,
+      "score": 3.61415,
+      "brewery": "Nomad Brewing Co.",
+      "country": "Australia",
+      "name": "Freshie Salt And Pepper",
+      "abv": 4.5
+    }
+  },
+  "Fix": {
+    "untappd": {
+      "id": "13276",
+      "style": "Lager - Pale",
+      "IBU": 0,
+      "score": 2.89611,
+      "brewery": "Olympic Brewery",
+      "country": "Greece",
+      "name": "FIX Hellas",
+      "abv": 5
+    }
+  },
+  "Willie the boatman nectar of the hops": {
+    "untappd": {
+      "id": "1754827",
+      "style": "IPA - American",
+      "IBU": 28,
+      "score": 3.72388,
+      "brewery": "Willie The Boatman",
+      "country": "Australia",
+      "name": "Nectar of the Hops",
+      "abv": 5.8
+    }
+  },
+  "Skorubrew #14 belgian apple ale": {
+    "untappd": {
+      "id": ""
+    },
+    "homebrew": {
+      "style": "Belgian Dubbel",
+      "country": "Australia",
+      "brewery": "Skorubrew"
+    }
+  },
+  "Big wave golden ale": {
+    "untappd": {
+      "id": "9657",
+      "style": "Golden Ale",
+      "IBU": 5,
+      "score": 3.53988,
+      "brewery": "Kona Brewing Company",
+      "country": "United States",
+      "name": "Big Wave Golden Ale",
+      "abv": 4.4
+    }
+  },
+  "4 pines Indian summer ale": {
+    "untappd": {
+      "id": "1204571",
+      "style": "Pale Ale - American",
+      "IBU": 15,
+      "score": 3.58194,
+      "brewery": "4 Pines Brewing Company",
+      "country": "Australia",
+      "name": "Indian Summer Ale",
+      "abv": 4.2
+    }
+  },
+  "Akasha Korban DIPA": {
+    "untappd": {
+      "id": "1336956",
+      "style": "IPA - Imperial / Double",
+      "IBU": 70,
+      "score": 4.17209,
+      "brewery": "Akasha Brewing Company (Australia)",
+      "country": "Australia",
+      "name": "Korben D. Double IPA",
+      "abv": 8.5
+    }
+  },
+  "Golden road gingerbread stout": {
+    "untappd": {
+      "id": "526280",
+      "style": "Stout - Imperial / Double",
+      "IBU": 45,
+      "score": 3.73886,
+      "brewery": "Golden Road Brewing",
+      "country": "United States",
+      "name": "Back Home Gingerbread Stout",
+      "abv": 8.5
+    }
+  },
+  "Pirate life golden era": {
+    "untappd": {
+      "id": "1304012",
+      "style": "Golden Ale",
+      "IBU": 22,
+      "score": 3.69568,
+      "brewery": "Pirate Life Brewing",
+      "country": "Australia",
+      "name": "Golden Era Records Golden Ale",
+      "abv": 4.7
+    }
+  },
+  "Alesmith IPA": {
+    "untappd": {
+      "id": "1793",
+      "style": "IPA - American",
+      "IBU": 73,
+      "score": 3.93337,
+      "brewery": "AleSmith Brewing Company",
+      "country": "United States",
+      "name": "IPA",
+      "abv": 7.25
+    }
+  },
+  "Hope black IPA": {
+    "untappd": {
+      "id": "1415695",
+      "style": "IPA - Black / Cascadian Dark Ale",
+      "IBU": 75,
+      "score": 3.82317,
+      "brewery": "Hope Brewhouse",
+      "country": "Australia",
+      "name": "Black IPA",
+      "abv": 6.8
+    }
+  },
+  "Fixation IPA": {
+    "untappd": {
+      "id": "1343276",
+      "style": "IPA - American",
+      "IBU": 65,
+      "score": 3.94664,
+      "brewery": "Fixation Brewing Co",
+      "country": "Australia",
+      "name": "Fixation IPA",
+      "abv": 6.4
+    }
+  },
+  "Boatrocker alpha queen": {
+    "untappd": {
+      "id": "11290",
+      "style": "Pale Ale - American",
+      "IBU": 35,
+      "score": 3.57635,
+      "brewery": "Boatrocker Brewing Company",
+      "country": "Australia",
+      "name": "Alpha Queen",
+      "abv": 5
+    }
+  },
+  "Imperial": {
+    "untappd": {
+      "id": "6945",
+      "style": "Lager - Pale",
+      "IBU": 0,
+      "score": 3.00826,
+      "brewery": "Cerveceria Costa Rica (Florida Bebidas)",
+      "country": "Costa Rica",
+      "name": "Imperial",
+      "abv": 4.6
+    }
+  },
+  "Mornington porter": {
+    "untappd": {
+      "id": "27335",
+      "style": "Porter - American",
+      "IBU": 0,
+      "score": 3.8155,
+      "brewery": "Mornington Peninsula Brewery",
+      "country": "Australia",
+      "name": "Porter",
+      "abv": 6
+    }
+  },
+  "Rochefort 10": {
+    "untappd": {
+      "id": "6766",
+      "style": "Belgian Quad",
+      "IBU": 27,
+      "score": 4.19111,
+      "brewery": "Abbaye Notre-Dame de Saint-Rémy",
+      "country": "Belgium",
+      "name": "Trappistes Rochefort 10",
+      "abv": 11.3
+    }
+  },
+  "Westmalle triple": {
+    "untappd": {
+      "id": "487",
+      "style": "Belgian Tripel",
+      "IBU": 36,
+      "score": 3.90726,
+      "brewery": "Brouwerij der Trappisten van Westmalle",
+      "country": "Belgium",
+      "name": "Westmalle Trappist Tripel",
+      "abv": 9.5
+    }
+  },
+  "Devils daughters": {
+    "untappd": {
+      "id": "1531203",
+      "style": "IPA - Imperial / Double",
+      "IBU": 30,
+      "score": 3.47984,
+      "brewery": "Urban Craft Brewing Co",
+      "country": "Australia",
+      "name": "Devil's Daughter Double IPA",
+      "abv": 6.5
+    }
+  },
+  "Katoomba brewing great white fleet": {
+    "untappd": {
+      "id": "1367305",
+      "style": "Pale Ale - American",
+      "IBU": 32,
+      "score": 3.53167,
+      "brewery": "Katoomba Brewing Company",
+      "country": "Australia",
+      "name": "American Pale Ale",
+      "abv": 5.2
+    }
+  },
+  "Spiced pumpkin ale": {
+    "untappd": {
+      "id": ""
+    }
+  },
+  "Fox hat phat mongrel": {
+    "untappd": {
+      "id": "1023357",
+      "style": "Stout - Oatmeal",
+      "IBU": 70,
+      "score": 3.89671,
+      "brewery": "Fox Hat Brewing",
+      "country": "Australia",
+      "name": "Phat Mongrel",
+      "abv": 6.5
+    }
   }
 }

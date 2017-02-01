@@ -4,8 +4,8 @@ require 'httpclient'
 require 'json'
 
 # Need to generate a new token every hour or so
-@token = "EAACEdEose0cBALSdZATXvTyn4ZCYdMZA3J4otjp7Dybv6ZCspNQjXY6VwhgHZBTyoUuolSX6rmZBYsBJ11uAj9x0cf48W4Shfrtj9TbmV1VlRUZCyQiZB1VhDVsBIqgXZBAM9n5xkzwuFURyEKMjiZC5J5haABRZBWqGFOclHhuZC9amgAZDZD";
-@albums = ["10151283325498745","10152534310003745"]
+@token = "EAACEdEose0cBAFY2IGC4ZBXv2KtrqDeY42qgkqIpzPgxVjAnPcccYkp23cqrzhVAtvQfjZBKO5HTnQToyrhmCoKFXLw0zdG9r8oJuHcr66oS2LZAifr4odWkLoihXmtOe3LjY0xmh3fkdHdQwegTusbkD3e56Ojj8VZA0KhBKuU1LbkXEtZAyZA55IcnfwAJsZD";
+@albums = ["10151283325498745","10152534310003745","10154858207913745"]
 @allBeers = [];
 @next = ""
 
@@ -96,8 +96,7 @@ def downloadData(albumId)
 	end
 end
 
-downloadData(@albums[0])
-downloadData(@albums[1])
+@albums.each { |x| downloadData(x)}
 
 dumpPlainJS()
 

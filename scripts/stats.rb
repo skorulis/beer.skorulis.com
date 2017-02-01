@@ -12,6 +12,11 @@ breweries = Hash.new
 scoreDiffs = 0
 scoreDiffCount = 0
 stats = Array.new
+countryMapping = Hash.new
+countryMapping["England"] = "United Kingdom";
+countryMapping["Scotland"] = "United Kingdom";
+countryMapping["China / People's Republic of China"] = "China";
+countryMapping["Russia"] = "Russian Federation";
 
 def increment(hash,key)
 	if key != nil && key.length > 0
@@ -39,6 +44,7 @@ allBeers.each do |item|
 
 	stat["name"] = name;
 	stat["d"] = item["date"]
+	stat["r"] = item["desc"].gsub(' ','').length
 
 	if item["score"] == "null"
 		withoutRatings.push(name)
@@ -98,6 +104,9 @@ allBeers.each do |item|
 		uRating = untappd["score"] * 2
 	end
 	
+	if countryMapping[country]
+		country = countryMapping[country]
+	end	
 
 
 	if country
